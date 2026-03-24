@@ -48,9 +48,5 @@ This emphasizes the need for targeted strategies per market zone.
 	•customers.csv, products.csv, markets.csv, date.csv – Supporting dimension tables
   
    Conclusion:
-  This project demonstrates how SQL and Power BI can transform raw FMCG sales data into insightful,
-  actionable analytics, helping businesses make strategic, data-driven decisions.
-
-⸻
 
 ✅ This project demonstrates how SQL and Power BI can transform raw FMCG sales data into insightful, actionable analytics, helping businesses make strategic, data-driven decisions.
