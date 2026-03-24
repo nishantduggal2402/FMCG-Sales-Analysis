@@ -42,7 +42,7 @@ Note: The original transactions dataset contains **100,000+ rows**.
 ## 📊 Dashboards Overview  
 
 - Dashboard 1 – Sales Performance
-  Depicts sales performance of different markets over time, helping management align with market demand and identify trends.  
+  Depicts sales performance of different markets over time, helping management align with market demand and identify trends. https/blob/main/Images_Dashboards/Dashboard%201.png
 
 - Dashboard 2 – Market Contribution Analysis
   Highlights customer behaviour and shows total contribution of each market and zone to overall sales and profit, enabling better strategic decisions.  
