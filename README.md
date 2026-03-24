@@ -1,52 +1,77 @@
-FMCG Sales Insights – ATLIQ Hardwares
+# 📊 FMCG Sales Insights – ATLIQ Hardwares  
+📌 Project  
+Analyzed ATLIQ Hardwares sales data using MySQL and Power BI to uncover key business insights related to revenue, profit, customer behavior, and market performance.  
 
-📌 Project Overview : 
-This project provides actionable business insights for ATLIQ Hardwares by analyzing historical sales data using MySQL and visualizing it in Power BI. 
-The goal was to understand revenue trends, profit drivers, customer behavior, and market performance to support data-driven decision-making in the FMCG domain.
+## 🎯 Business Requirement  
+To analyze historical sales data and build interactive dashboards that highlight key trends, KPIs, and performance metrics to support data-driven decision-making.  
 
-Key Highlights:
-	•Revenue and profit analysis by market zones and products
-	•Customer segmentation based on purchase frequency
-	•Top customer and product performance
-	•Revenue and profit contribution by markets and zones
 
-📈 Dashboard Previews:
-Dashboard 1 – Market & Sales Analysis 
-Dashboard 2 – Profit & Profit Margin Analysis
-Dashboard 3 – Customer & Market Mix Analysis
+## ⚙️ Tools & Technologies  
+- MySQL  
+- SQL (CTEs, Window Functions, Joins, Subqueries)  
+- Power BI  
 
-🔍 SQL Techniques Used:
-	•Joins – Combining multiple tables for comprehensive analysis
-	•CTEs – For organizing complex intermediate calculations
-	•Window Functions – Ranking, cumulative revenue, and running totals
-	•Subqueries – For calculating contribution percentages
-	•Aggregations – SUM, AVG, COUNT to compute KPIs
-  
-📊 Key KPIs:
-	•Total Revenue & Profit
-	•Profit Margin (%)
-	•Revenue & Profit Contribution by Market & Customer
-	•Customer Segmentation by Purchase Frequency
-	•Top Customers & Top Products
 
-📈 Key Insights:
-	1.High-impact customers drive profit: A small group of high-frequency customers generates the majority of profit, while low-frequency customers contribute higher revenue per order, indicating valuable bulk or high-value transactions.
-	2.Geographical concentration: Delhi NCR dominates revenue and profit (~50%), Mumbai contributes moderately (~15–20%), and Kanpur & Bengaluru show negative profit contributions, highlighting markets that need attention.	
-	3.Top customers matter most: The top 5 customers, led by Electricalsara Stores (~50% of total profit, ~38% profit contribution), followed by Nixon, Electricalslytical, Leader, and Premium Stores (~4–7% each), drive a disproportionately large share of profit.	
-	4.	Key customers by zone: Regional revenue is concentrated in a few top customers:
-	•Central: Sage & Expression
-	•North: Novus & Electricalsbea Stores
-	•South: Sound & Electricalsara Stores
-This emphasizes the need for targeted strategies per market zone.
+## 📂 Dataset  
+The dataset consists of 5 tables:  
+- Markets  
+- Customers  
+- Products  
+- Date  
+- Transactions  
+Note: The original transactions dataset contains **100,000+ rows**.  
+> A **sample of ~10,000 rows** is used in this repository for demonstration.  
 
-⚙️ Tools & Technologies:
-	MySQL – For data cleaning, manipulation, exploration, and KPI calculations
-	,Power BI – ETL, data modeling, DAX measures, and interactive dashboards
-  
-📂 Dataset:
-	•transactions_sample.csv – 10,000-row sample (original >100,000 transactions)
-	•customers.csv, products.csv, markets.csv, date.csv – Supporting dimension tables
-  
-   Conclusion:
 
-✅ This project demonstrates how SQL and Power BI can transform raw FMCG sales data into insightful, actionable analytics, helping businesses make strategic, data-driven decisions.
+## 🔍 SQL Techniques Used  
+- Joins  
+- CTEs (Common Table Expressions)  
+- Window Functions  
+- Subqueries  
+- Aggregations (SUM, AVG, COUNT)  
+
+
+## 📊 Power BI Techniques Used  
+- Data Cleaning & Transformation (Power Query / ETL)  
+- Data Modeling (Relationships between tables)  
+- DAX Measures (Revenue, Profit, KPIs)  
+- Interactive Dashboards & Visualizations  
+- Filters, Slicers, and Drill-down Features  
+
+
+## 📊 Dashboards Overview  
+
+- Dashboard 1 – Sales Performance
+  Depicts sales performance of different markets over time, helping management align with market demand and identify trends.  
+
+- Dashboard 2 – Market Contribution Analysis
+  Highlights customer behaviour and shows total contribution of each market and zone to overall sales and profit, enabling better strategic decisions.  
+
+- Dashboard 3 – Customer Insights
+  Focuses on customer behaviour by analyzing contribution to sales and profit across markets and zones, providing key insights for data-driven decision-making.  
+
+
+## 📊 Key Analysis Performed  
+- Revenue & Profit by Market Zone  
+- Revenue by Product Type  
+- Monthly Revenue Trends  
+- Top Customers by Profit & Contribution %  
+- Customer Segmentation (High vs Low Frequency)  
+- Market-wise Revenue & Profit Contribution %  
+- Top Customers per Zone  
+- Cumulative Revenue Over Time  
+
+
+## 📈 Key Insights  
+
+- High-frequency customers drive the majority of total profit, while low-frequency customers generate higher revenue per order, indicating high-value transactions.  
+
+- Revenue and profit are highly concentrated geographically, with Delhi NCR contributing ~50%, Mumbai contributing ~15–20%, while some markets operate at a loss.  
+
+- A small group of top customers contributes a disproportionately large share of profit, led by Electricalsara Stores (~50% of total profit and ~38% contribution), followed by other key customers (~4–7%).  
+
+- Each market zone is driven by a few key customers, highlighting the importance of targeted regional strategies and customer retention.  
+
+
+## Conclusion 
+This project demonstrates how SQL and Power BI can be used to transform raw data into meaningful business insights, enabling organizations to optimize strategy, improve profitability, and make data-driven decisions.
