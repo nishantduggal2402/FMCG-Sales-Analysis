@@ -20,7 +20,14 @@ The dataset consists of 5 tables:
 - Date  
 - Transactions  
 Note: The original transactions dataset contains **100,000+ rows**.  
-> A **sample of ~10,000 rows** is used in this repository for demonstration.  
+> A **sample of ~10,000 rows** is used in this repository for demonstration.
+
+
+##  📁 Project Structure
+	•	data/ – Dataset files (5 tables, transactions sample ~10K rows, original ~150K rows)
+	•	dashboard_images/ – Dashboard screenshots (3 dashboards)
+	•	fmcg.sql – SQL analysis queries
+	•	fmcg.pbix – Power BI dashboard
 
 
 ## 🔍 SQL Techniques Used  
