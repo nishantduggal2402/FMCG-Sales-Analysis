@@ -44,7 +44,7 @@ Note: The original transactions dataset contains **100,000+ rows**.
 - Data Modeling (Relationships between tables)  
 - DAX Measures (Revenue, Profit, KPIs)  
 - Interactive Dashboards & Visualizations  
-- Filters, Slicers, and Drill-down Features  
+- Filters, Slicers,Dynamic Parameters and Drill-down Features  
 
 
 ## 📊 Dashboards Overview  
@@ -56,7 +56,7 @@ Note: The original transactions dataset contains **100,000+ rows**.
   Highlights customer behaviour and shows total contribution of each market and zone to overall sales and profit, enabling better strategic decisions.  
 
 - Dashboard 3 – Customer Insights
-  Focuses on customer behaviour by analyzing contribution to sales and profit across markets and zones, providing key insights for data-driven decision-making.  
+  Focuses on customer behaviour by analyzing contribution to sales and profit across markets and zones and finding markets which perform well or bad by adding dynamic parameters providing key insights for data-driven decision-making.  
 
 
 ## 📊 Key Analysis Performed  
