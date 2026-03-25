@@ -74,7 +74,7 @@ Note: The original transactions dataset contains **100,000+ rows**.
 
 - High-frequency customers drive the majority of total profit, while low-frequency customers generate higher revenue per order, indicating high-value transactions.  
 
-- Revenue and profit are highly concentrated geographically, with Delhi NCR contributing ~50%, Mumbai contributing ~15–20%, while some markets operate at a loss.  
+- Revenue and profit are moderately concentrated, with Delhi NCR and Mumbai each contributing around 20–22%. Delhi NCR has higher order volumes but comparatively lower profit, indicating lower profitability per order. In contrast, Bhubaneswar, despite being a smaller market, shows stronger profit efficiency. Additionally, a few markets are operating at a loss and require strategic attention.
 
 - A small group of top customers contributes a disproportionately large share of profit, led by Electricalsara Stores (~50% of total profit and ~38% contribution), followed by other key customers (~4–7%).  
 
