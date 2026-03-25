@@ -78,7 +78,7 @@ Note: The original transactions dataset contains **100,000+ rows**.
 
 - A small group of top customers contributes a disproportionately large share of profit, led by Electricalsara Stores (~50% of total profit and ~38% contribution), followed by other key customers (~4–7%).  
 
-- Each market zone is driven by a few key customers, highlighting the importance of targeted regional strategies and customer retention.  
+- Each market zone is driven by a few key customers, highlighting the importance of targeted regional strategies and customer retention. As per market zone south gives highest profit contribution percentage but north on the hand has lowest profit contribution percentage but high volume of orders from North makes it attractive market too.
 
 
 ## Conclusion 
