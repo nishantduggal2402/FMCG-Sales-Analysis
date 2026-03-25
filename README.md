@@ -24,12 +24,11 @@ Note: The original transactions dataset contains **100,000+ rows**.
 
 
 ##  📁 Project Structure
-	•	data/ – Dataset files (5 tables
-	, 
+	•	data/ – Dataset files (5 tables, 
 	transactions sample ~10K rows, original ~150K rows)
-	•	dashboard_images/ – Dashboard screenshots (3 dashboards)
-	•	fmcg.sql – SQL analysis queries
-	•	fmcg.pbix – Power BI dashboard
+	•	Dashboard_images/ – Dashboard screenshots (3 dashboards)
+	•	FMCG.sql – SQL analysis queries
+	•	FMCG..pbix – Power BI dashboard
 
 
 ## 🔍 SQL Techniques Used  
