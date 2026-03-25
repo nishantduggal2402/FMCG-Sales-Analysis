@@ -27,8 +27,8 @@ Note: The original transactions dataset contains **100,000+ rows**.
 	•	data/ – Dataset files (5 tables, 
 	transactions sample ~10K rows, original ~150K rows)
 	•	Dashboard_images/ – Dashboard screenshots (3 dashboards)
-	•	FMCG.sql – SQL analysis queries
-	•	FMCG..pbix – Power BI dashboard
+	•	FMCG_Insights.sql – SQL analysis queries
+	•	FMCG_Insights.pbix – Power BI dashboard
 
 
 ## 🔍 SQL Techniques Used  
