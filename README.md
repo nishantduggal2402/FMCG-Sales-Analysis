@@ -44,7 +44,7 @@ To analyze historical sales data and build interactive dashboards that highlight
 
 
 ## 📁 Project Structure  
-- `data/` – Dataset files (5 tables, ~10K sample rows)  
+- `data/` – Dataset files (5 tables,original more than 100k rows ~10K sample rows)  
 - `FMCG_Insights.sql` – SQL queries for analysis  
 - `FMCG_Insights.pbix` – Power BI dashboard  
 - `Images_Dashboards/` – Dashboard screenshots  
