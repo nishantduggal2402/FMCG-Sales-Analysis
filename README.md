@@ -1,85 +1,72 @@
 # 📊 FMCG Sales Insights – ATLIQ Hardwares  
-📌 Project  
-Analyzed ATLIQ Hardwares sales data using MySQL and Power BI to uncover key business insights related to revenue, profit, customer behavior, and market performance.  
+
+## 📌 Project  
+Analyzed ATLIQ Hardwares sales data using MySQL and Power BI to uncover insights on revenue, profitability, customer behavior, and market performance.
+
 
 ## 🎯 Business Requirement  
-To analyze historical sales data and build interactive dashboards that highlight key trends, KPIs, and performance metrics to support data-driven decision-making.  
+To analyze historical sales data and build interactive dashboards that highlight key trends, KPIs, and performance metrics to support data-driven decision-making.
 
 
 ## ⚙️ Tools & Technologies  
 - MySQL  
-- SQL (CTEs, Window Functions, Joins, Subqueries)  
+- SQL (CTEs, Joins, Window Functions, Subqueries)  
 - Power BI  
 
 
+## 📊 Key Insights  
+
+- High-frequency customers contribute most of the total profit, while low-frequency customers generate higher revenue per order.  
+
+- Revenue and profit are concentrated in key markets like Delhi NCR and Mumbai (~20–22%). Delhi NCR shows high volume but lower profitability, while smaller markets like Bhubaneswar perform better in profit efficiency.  
+
+- A small group of customers drives a major share of profit, with Electricalsara Stores contributing ~50%.  
+
+- South zone has the highest profit margins, while North has lower margins but higher order volume, making it strategically important.  
+
+
+## 🚀 Business Impact  
+
+- Enabled targeted retention strategies by identifying high-value customers.  
+
+- Supported pricing and investment decisions by highlighting market-wise profit variations.  
+
+- Reduced business risk by identifying dependency on a few key customers.  
+
+- Improved decision-making through interactive dashboards and KPI tracking.  
+
+
+## 📊 Dashboard Highlights  
+
+- Sales Performance – Tracks revenue trends across markets over time  
+- Market Contribution – Shows revenue and profit share by region  
+- Customer Insights – Analyzes customer contribution and behavior  
+
+
+## 📁 Project Structure  
+- `data/` – Dataset files (5 tables, ~10K sample rows)  
+- `FMCG_Insights.sql` – SQL queries for analysis  
+- `FMCG_Insights.pbix` – Power BI dashboard  
+- `Images_Dashboards/` – Dashboard screenshots  
+
+
 ## 📂 Dataset  
-The dataset consists of 5 tables:  
-- Markets  
-- Customers  
-- Products  
-- Date  
-- Transactions  
-Note: The original transactions dataset contains **100,000+ rows**.  
-> A **sample of ~10,000 rows** is used in this repository for demonstration.
-
-
-##  📁 Project Structure
-	•	data/ – Dataset files (5 tables, 
-	transactions sample ~10K rows, original ~150K rows)
-	•	Images_Dashboards/ – Dashboard screenshots (3 dashboards)
-	•	FMCG_Insights.sql – SQL analysis queries
-	•	FMCG_Insights.pbix – Power BI dashboard
+Includes 5 tables: Markets, Customers, Products, Date, Transactions  
+*(Original dataset: 100K+ rows | Sample used: ~10K rows)*  
 
 
 ## 🔍 SQL Techniques Used  
-- Joins  
-- CTEs (Common Table Expressions)  
-- Window Functions  
+- Joins, CTEs, Window Functions  
 - Subqueries  
 - Aggregations (SUM, AVG, COUNT)  
 
 
-## 📊 Power BI Techniques Used  
-- Data Cleaning & Transformation (Power Query / ETL)  
-- Data Modeling (Relationships between tables)  
+## 📊 Power BI Features  
+- Data Cleaning & Transformation (Power Query)  
+- Data Modeling (Relationships)  
 - DAX Measures (Revenue, Profit, KPIs)  
-- Interactive Dashboards & Visualizations  
-- Filters, Slicers,Dynamic Parameters and Drill-down Features  
+- Interactive dashboards with filters, slicers, and drill-down  
 
 
-## 📊 Dashboards Overview  
-
-- Dashboard 1 – Sales Performance
-  Depicts sales performance of different markets over time, helping management align with market demand and identify trends. 
-
-- Dashboard 2 – Market Contribution Analysis
-  Highlights customer behaviour and shows total contribution of each market and zone to overall sales and profit, enabling better strategic decisions.  
-
-- Dashboard 3 – Customer Insights
-  Focuses on customer behaviour by analyzing contribution to sales and profit across markets and zones and finding markets which perform well or bad by adding dynamic parameters providing key insights for data-driven decision-making.  
-
-
-## 📊 Key Analysis Performed  
-- Revenue & Profit by Market Zone  
-- Revenue by Product Type  
-- Monthly Revenue Trends  
-- Top Customers by Profit & Contribution %  
-- Customer Segmentation (High vs Low Frequency)  
-- Market-wise Revenue & Profit Contribution %  
-- Top Customers per Zone  
-- Cumulative Revenue Over Time  
-
-
-## 📈 Key Insights  
-
-- High-frequency customers drive the majority of total profit, while low-frequency customers generate higher revenue per order, indicating high-value transactions.  
-
-- Revenue and profit are moderately concentrated, with Delhi NCR and Mumbai each contributing around 20–22%. Delhi NCR has higher order volumes but comparatively lower profit, indicating lower profitability per order. In contrast, Bhubaneswar, despite being a smaller market, shows stronger profit efficiency. Additionally, a few markets are operating at a loss and require strategic attention.
-
-- A small group of top customers contributes a disproportionately large share of profit, led by Electricalsara Stores (~50% of total profit and ~38% contribution), followed by other key customers (~4–7%).  
-
-- Each market zone is driven by a few key customers, highlighting the importance of targeted regional strategies and customer retention. As per market zone south gives highest profit margin percentage but north on the hand has lowest profit margin percentage but high volume of orders from North makes it attractive market too.
-
-
-## Conclusion 
-This project demonstrates how SQL and Power BI can be used to transform raw data into meaningful business insights, enabling organizations to optimize strategy, improve profitability, and make data-driven decisions.
+## ✅ Conclusion  
+This project demonstrates how SQL and Power BI can transform raw data into actionable insights, enabling businesses to optimize strategy, improve profitability, and make data-driven decisions.
